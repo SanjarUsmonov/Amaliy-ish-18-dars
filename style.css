@@ -397,7 +397,7 @@
 
     .site-head__text3{
         width: 150px;
-        line-height: 160%;
+        line-height: 120%;
         font-size: 16px;
         font-weight: 400;
         color: var(--light-grey);
