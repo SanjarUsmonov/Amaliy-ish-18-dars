@@ -148,6 +148,7 @@
         color: #fff;
     }
     .site-head__opit{
+        width: 180px;
         font-size: 24px;
         font-weight: 400;
         font-family: 'STIX Two Text';
@@ -820,7 +821,13 @@
      .site-head__opit2{
         color: var(--black-dark);
         padding-top: 60px;
+        width: 300px;
+        font-size: 24px;
+    }
+    .site-head__opit4{
         width: 200px;
+        color: var(--black-dark);
+        padding-top: 60px;
         font-size: 24px;
     }
     .site-head-opit{
@@ -1079,7 +1086,7 @@
         font-family: 'Montserrat';
     }
     .end-text{
-        color: var(--light-grey);
+        color: var(--white);
         font-size: 17px;
         line-height: 20px;
         margin-top: 10px;
