@@ -663,7 +663,7 @@
 
     .site-head__btn1{
         width: 180px;
-        margin: 0 auto;
+        margin: auto;
         display: flex;
         align-items: center;
         margin-bottom: 55px;
@@ -698,6 +698,7 @@
         color: #fff;
     }
     .site-head__opit{
+        width: 250px;
         font-size: 28px;
         font-weight: 400;
         font-family: 'STIX Two Text';
@@ -819,7 +820,7 @@
      .site-head__opit2{
         color: var(--black-dark);
         padding-top: 60px;
-        width: 250px;
+        width: 200px;
         font-size: 24px;
     }
     .site-head-opit{
@@ -1006,7 +1007,7 @@
         justify-content: space-between;
     }
     .info{
-        width: 100%;
+        width: 480px;
         height: 1880px;
         background:url(image/background_team.png);
         background-repeat: no-repeat;
@@ -1030,7 +1031,7 @@
         color: #DA4533;
     }
     .info__inf{
-        width: 470px;
+        width: 450px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1041,9 +1042,9 @@
         mix-blend-mode: luminosity;
     }
     .info__btn{
-        margin-left: 0;
         width: 133px;
         height: 133px;
+
     }
     .info__btn-sub{
         width: 133px;
@@ -1054,11 +1055,11 @@
         color: var(--black-dark);
     }
     .info__inf-sub{
-        width: 330px;
+        width: 200px;
         font-size: 18px;
     }
     .info__inf-text{
-        width: 230px;
+        width: 200px;
     }
     .info__btn-img{
         margin-right: -30px;
