@@ -28,15 +28,15 @@
         width: 100%;
         margin: 0 auto;
     }
-    .site-head__start{
-        max-width: 360px;
-        width: 100%;
-        background-color: #000;
-    }
     .site-head{
         width: 360px;
         height: 70px;
         background-color: #1b1b1b;
+    }
+    .site-head__start{
+        max-width: 360px;
+        width: 100%;
+        background-color: #000;
     }
     .site-head__nav{
         margin: 0 auto;
@@ -141,6 +141,7 @@
         width: 40px;
         height: 10px;
         margin-left: -35px;
+        transition: 0.5s;
     }
     .site-head__info{ 
         width: 320px;
@@ -148,14 +149,15 @@
         color: #fff;
     }
     .site-head__opit{
-        width: 180px;
-        font-size: 24px;
+        width: 330px;
+        font-size: 23px;
         font-weight: 400;
         font-family: 'STIX Two Text';
         color: var(--white);
         margin-bottom: 12px;
+        padding-top: 60px
     }
-    .site-head__text2{
+    .site-head__since{
         width: 320px;
         font-size: 15px;
         font-family: ;
@@ -170,12 +172,6 @@
         margin: 0 auto;
         display: flex;
         flex-direction: column;   
-    }
-    .site-head__buttons3{
-        width: 320px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;  
     }
     .btn{
         display: flex;
@@ -192,9 +188,6 @@
         background-color: #3a3a3a;
         border: #3a3a3a;
         transition: 0.5s;
-    }
-    .btn6-3{
-        padding-bottom: 0px; 
     }
     .site-head__number{
         font-size: 24px;
@@ -216,14 +209,53 @@
         font-weight: 400;
         color: var(--light-grey);
     }
+    .site-head__buttons3{
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;  
+    }
     .site-head__opit2{
         color: var(--black-dark);
         padding-top: 60px;
+        font-family: 'STIX Two Text';
     }
     .main{
         width: 360px;
         height: 725px;
         background:url(image/backgroud_grey.png);
+    }
+    .main__bg{
+        width: 320px;
+        height: 320px;
+        background: var(--black-dark);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .main__icon{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .main__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .none{
+        display: none;
+    }
+    .main__text{
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: ;
+        font-weight: 500;
+        color: var(--light-grey);
     }
     .main__circle{
         width: 150px;
@@ -258,40 +290,8 @@
         width: 55px;
         height: 40px;
     }
-    .main__bg{
-        width: 320px;
-        height: 320px;
-        background: var(--black-dark);
-        border-radius: 10px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-    }
     .main__btn5{
         margin-top: -20px;
-    }
-    .main__icon{
-        max-width: 300px;
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
-    .main__img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .main__text{
-        max-width: 280px;
-        width: 100%;
-        margin: 0 auto;
-        font-size: 16px;
-        font-family: ;
-        font-weight: 500;
-        color: var(--light-grey);
-    }
-    .none{
-        display: none;
     }
     .main__button{
         display: flex;
@@ -324,6 +324,22 @@
         height: 124px;
         margin-top: -40px;
     }
+    .center__bg{
+        border-radius: 10px;
+        width: 320px;
+        height: 355px;
+        margin: 0 auto;
+        background: var(--black-dark);
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--white);
+        text-align: center;
+    }
+    .center__text{
+        font-size: 17px;
+        padding: 15px 0;
+        margin-bottom: 40px;
+    }
     .center__btn{
         width: 100%;
         height: 180px;
@@ -331,11 +347,6 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-    }
-    .center__text{
-        font-size: 17px;
-        padding: 15px 0;
-        margin-bottom: 40px;
     }
     .center__a{
         width: 250px;
@@ -357,17 +368,6 @@
     }
     .center__a2{
         height: 60px;
-    }
-    .center__bg{
-        border-radius: 10px;
-        width: 320px;
-        height: 355px;
-        margin: 0 auto;
-        background: var(--black-dark);
-        font-size: 14px;
-        font-weight: 500;
-        color: var(--white);
-        text-align: center;
     }
     .center__btn2{
         margin-top: 25px;
@@ -399,15 +399,15 @@
         justify-content: space-around;
         flex-direction: column;
     }
-    .h1{
-        margin-top: -50px;
-        color: var(--grey);
-    }
     .cola{
         background-color: #222;
         padding: 10px;
         margin-top: -10px;
         border-radius: 0 0 10px 10px;
+    }
+    .h1{
+        margin-top: -50px;
+        color: var(--grey);
     }
     .site-head__btn3{
         margin-top: -40px;
@@ -699,19 +699,19 @@
         color: #fff;
     }
     .site-head__opit{
-        width: 250px;
+        width: 400px;
         font-size: 28px;
         font-weight: 400;
         font-family: 'STIX Two Text';
         color: var(--white);
         margin-bottom: 12px;
     }
-    .site-head__text2{
+    .site-head__since{
         display: flex;
         align-items: center;
-        width: 223px;
+        width: 400px;
         font-size: 16px;
-        font-family: ;
+        font-family: 'Montserrat';
         font-weight: 500;
         color: var(--light-grey);
         line-height: 20px;
@@ -723,8 +723,6 @@
         font-weight: 500;
         line-height: 20px;
         margin-bottom: 50px;
-
-        
     }
     .site-head__buttons{
         width: 440px;
@@ -830,7 +828,7 @@
      .site-head__opit2{
         color: var(--black-dark);
         padding-top: 60px;
-        width: px;
+        width: 330px;
         font-size: 24px;
     }
     .site-head__opit4{
@@ -838,6 +836,17 @@
         color: var(--black-dark);
         padding-top: 60px;
         font-size: 24px;
+    }
+    .site-head__since2{
+        display: flex;
+        align-items: center;
+        width: 200px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        color: var(--light-grey);
+        line-height: 20px;
+        margin-bottom: 50px;
     }
     .site-head-opit{
         margin-top: -45px;
@@ -1047,11 +1056,12 @@
         color: #DA4533;
     }
     .info__inf{
-        width: 450px;
+        width: 480px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+  
     .info__50{
         width: 80px;
         height: 80px;
