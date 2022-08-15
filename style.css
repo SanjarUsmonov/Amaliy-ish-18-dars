@@ -683,11 +683,13 @@
         color: var(--red);
         font-weight: 500;
         margin-right: 10px;
+        transition: 0.5s;
     }
     .site-head__imgage{
         width: 60px;
         height: 10px;
         margin-left: -35px;
+        transition: 0.5s;
     }
     span{
         margin-left: -25px;
