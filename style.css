@@ -136,6 +136,7 @@
         color: var(--red);
         font-weight: 500;
         margin-right: 10px;
+        transition: 0.5s;
     }
     .site-head__imgage{
         width: 40px;
