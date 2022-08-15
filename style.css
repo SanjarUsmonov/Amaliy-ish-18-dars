@@ -828,14 +828,17 @@
      .site-head__opit2{
         color: var(--black-dark);
         padding-top: 60px;
-        width: 330px;
+        width: 400px;
         font-size: 24px;
     }
     .site-head__opit4{
         width: 200px;
         color: var(--black-dark);
         padding-top: 60px;
-        font-size: 24px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Montserrat";
+        margin-bottom: 8px;
     }
     .site-head__since2{
         display: flex;
@@ -981,7 +984,35 @@
     .opit{
         color: var(--white);
         font-size: 20px;
+        padding-top: 60px;
+        font-size: 22px;
+        width: 300px;;
+        font-weight: 400;
+        font-family: 'STIX Two Text';
+        margin-bottom: 12px;
     }
+    .opit__text{
+        display: flex;
+        align-items: center;
+        width: 250px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        color: var(--light-grey);
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+   .opit__sub{
+        display: flex;
+        align-items: center;
+        width: 290px;
+        font-size: 24px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        color: var(--black-dark);
+        font-family: 'Montserrat';
+    }
+
     .site-head__opit3{
         width: 400px;
     }
@@ -1040,28 +1071,30 @@
         background-size: 480px 1880px;
     }
     .info__infor{
-        width: 460px;
+        width: 400px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .info__content{
+        width: 270px;
     }
     .info__content img{
         width: 200px;
     }
     .info__sub{
-        width: 180px;
+        width: 350px;
         justify-content: space-between;
         align-items: center;
         display: flex;
         color: #DA4533;
     }
     .info__inf{
-        width: 480px;
+        width: 420px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-  
     .info__50{
         width: 80px;
         height: 80px;
@@ -1081,11 +1114,11 @@
         color: var(--black-dark);
     }
     .info__inf-sub{
-        width: 200px;
-        font-size: 18px;
+        width: 310px;
+        font-size: 24px;
     }
     .info__inf-text{
-        width: 200px;
+        width: 280px;
     }
     .info__btn-img{
         margin-right: -30px;
