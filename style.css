@@ -489,7 +489,7 @@
     }
     .end-main{
         width: 360px;
-        height: 750px;
+        height: 790px;
         padding: 20px;
         margin: 0 auto;
         background-color: var(--black-dark);
@@ -560,6 +560,9 @@
         display: none;
     }
     .site-head__img-oval img{
+        display: none;
+    }
+    .none{
         display: none;
     }
 }
@@ -1047,7 +1050,6 @@
         color: var(--black-dark);
         font-family: 'Montserrat';
     }
-
     .site-head__opit3{
         width: 400px;
     }
@@ -1064,12 +1066,19 @@
         font-size: 24px;
     }
     .cola{
-        width: 290px;
-        height: 350px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 354px;
+        height: 354px;
         background-color: #222;
-        padding: 10px;
+        padding: 30px;
         margin-left: -10px;
         border-radius: 0 10px 10px 0;
+    }
+    .main__circle-subject{
+        font-size: 20px;
+        line-height: 30px;
     }
     .site-head__text4{
         width: 440px;
@@ -1921,7 +1930,7 @@
         justify-content: space-between;
     }
     .fooot{
-        width: 400px;
+        width: 450px;
     }
     .st{
         color: var(--grey);
@@ -1929,6 +1938,9 @@
     .end__code{
         color: var(--white);
         margin-bottom: 10px;
+        width: 200px;
+        font-size: 12px;
+        padding-top: 10px;
     }
     .end__code1{
         margin-top: 25px;
@@ -1943,8 +1955,9 @@
         width: 140px;
     }
     .end__hode{
+        width: 300px;
         color: var(--grey);
-        font-size: 18px;
+        font-size: 14px;
         padding: 15px 0;
     }
     .end__hode1{
@@ -1958,7 +1971,7 @@
     .end__links{
         width: 280px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
     }
     .end__links-link{
         text-decoration: none;
@@ -1969,5 +1982,14 @@
     .end__links-link:hover{
         text-decoration: underline;
         color: var(--light-grey);
+    }
+    .none3{
+        display: none;
+    }
+    .foot-end{margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
     }
 }
