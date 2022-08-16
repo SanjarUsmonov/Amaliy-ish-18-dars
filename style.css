@@ -415,6 +415,13 @@
     .opit{
         color: var(--white);
     }
+    .opit__sub{
+        color: var(--black-dark);
+    }
+    .opit___text{
+        color: var(--grey);
+        font-family: 'Montserrat';
+    }
     .main__bgm{
         width: 320px;
         height: 90px;
@@ -1073,7 +1080,7 @@
         font-size: 16px;
         font-family: 'Montserrat';
         font-weight: 500;
-        color: var(--light-grey);
+        color: var(--grey);
         line-height: 20px;
         margin-bottom: 50px;
     }
@@ -2143,6 +2150,9 @@
         width: 100%;
         background-color: #000;
         color: #fff;
+    }
+    .up{
+        padding-top: 110px;
     }
     .site-head__information{
         width: 500px;
