@@ -113,7 +113,6 @@
   }
   .site-head__ram:hover {
     transform: none;
-    border: none;
   }
   .site-head__button {
     max-width: 300px;
@@ -614,17 +613,17 @@
     z-index: 100;
   }
   .div-nav {
-    left: 0;
+    right: 0;
     position: fixed;
     width: 100%;
     height: 100%;
     background: red;
     top: 0;
-    left: -100%;
+    right: -100%;
     transition: 0.5s;
   }
   #burger:checked ~ .div-nav {
-    left: 0;
+    right: 0;
   }
 }
 
@@ -735,18 +734,17 @@
     margin-bottom: 31px;
   }
   .site-head__ram {
-    max-width: 420px;
+    max-width: 400px;
     width: 100%;
     height: 90px;
     background: transparent;
     border-radius: 50%;
     border: 1px solid #ffffff;
     transform: matrix(0.99, -0.11, 0.11, 0.99, 0, 0);
+    transition: 0.5s;
   }
   .site-head__ram:hover {
     transform: none;
-    border: none;
-    transition: 0.5s;
   }
   .site-head__btns {
     width: 350px;
@@ -1338,17 +1336,17 @@
     z-index: 100;
   }
   .div-nav {
-    left: 0;
+    right: 0;
     position: fixed;
     width: 100%;
     height: 100%;
     background: red;
     top: 0;
-    left: -100%;
+    right: -100%;
     transition: 0.5s;
   }
   #burger:checked ~ .div-nav {
-    left: 0;
+    right: 0;
   }
 }
 
@@ -2108,8 +2106,18 @@
   label {
     z-index: 100;
   }
+  .div-nav {
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: red;
+    top: 0;
+    right: -100%;
+    transition: 0.5s;
+  }
   #burger:checked ~ .div-nav {
-    display: none;
+    right: 0;
   }
 }
 
@@ -2915,8 +2923,18 @@
   label {
     z-index: 100;
   }
+  .div-nav {
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: red;
+    top: 0;
+    right: -100%;
+    transition: 0.5s;
+  }
   #burger:checked ~ .div-nav {
-    display: none;
+    right: 0;
   }
 }
 
@@ -3041,7 +3059,7 @@
     padding-top: 110px;
   }
   .site-head__information {
-    width: 520px;
+    width: 500px;
     margin: 0 auto;
     margin-top: 200px;
   }
@@ -3659,6 +3677,7 @@
   }
   .footer {
     background-color: var(--red);
+    width: 1280px;
   }
   .footer__btn {
     background-color: var(--black-dark);
