@@ -617,7 +617,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #1b1b1b;
+    background: linear-gradient(#1b1b1b, #1b1b1b), url(image/backgroud_black.png);
     top: 0;
     right: -100%;
     transition: 0.5s;
@@ -1188,16 +1188,17 @@
     width: 400px;
   }
   .main__bgm {
-    width: 120px;
-    height: 350px;
+    width: 125px;
+    height: 354px;
     background: rgba(255, 255, 255, 0.05);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
   }
   .h1 {
     color: var(--grey);
     font-size: 24px;
+    text-align: center;
   }
   .cola {
     display: flex;
@@ -1406,7 +1407,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #1b1b1b;
+    background: linear-gradient(#1b1b1b, #1b1b1b), url(image/backgroud_black.png);
     top: 0;
     right: -100%;
     transition: 0.5s;
@@ -2233,10 +2234,10 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    background: var(--black-dark);
     top: 0;
     right: -100%;
     transition: 0.5s;
+    background: linear-gradient(#1b1b1b, #1b1b1b), url(image/backgroud_black.png);
   }
   #burger:checked ~ .div-nav {
     right: 0;
@@ -2247,6 +2248,7 @@
   }
   .empty{
     width: 165px;
+    height: 2000px;
     background-color: var(--grey);
   }
   .menu-bar{
@@ -3116,14 +3118,80 @@
     right: 0;
     position: fixed;
     width: 100%;
-    height: 100%;
-    background: red;
+    background: linear-gradient(#1b1b1b, #1b1b1b), url(image/backgroud_black.png);
     top: 0;
     right: -100%;
     transition: 0.5s;
   }
   #burger:checked ~ .div-nav {
     right: 0;
+  }
+  .div-nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .empty{
+    width: 165px;
+    background-color: var(--grey);
+  }
+  .menu-bar{
+    margin: 0 auto;
+    width: 480px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .services{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+  }
+  .malumot{
+    width: 400px;
+  }
+  .menu{
+    font-size: 34px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: var(--white);
+    padding-bottom: 25px;
+  }
+  h6{
+    margin-top: 40px;
+    color: var(--grey);
+    font-size: 20px;
+    font-family: 'Montserrat';
+  }
+  .about-us{
+    text-decoration: none;
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--white);
+  }
+  .sites{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-loc{
+    font-size: 17px;
+  }
+  .mt{
+    margin-top: 0;
+  }
+  .email{
+    display: flex;
+    flex-direction: column;
+  }
+  .malumot img{
+    width: 350px;
+    height: 350px;
+    margin-left: -80px;
+    margin-top: 50px;
   }
 }
 
