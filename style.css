@@ -993,7 +993,9 @@
     flex-direction: column;
   }
   .main__icon {
-    display: none;
+    display: flex;
+    width: 190px;
+    justify-content: end;
   }
   .main__img {
     display: flex;
