@@ -458,8 +458,8 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 60px;
-    margin-left: 38px;
-    padding-left: 25px;
+    margin-left: 108px;
+    padding-left: 50px;
     background-color: var(--black-dark);
     overflow: auto;
   }
@@ -468,33 +468,33 @@ body{
     flex-direction: column;
   }
   .menu{
-    font-size: 22px;
+    font-size: 28px;
     font-family: 'Montserrat';
     text-decoration: none;
     color: var(--white);
-    padding-bottom: 10px;
+    padding-bottom: 24px;
   }
   h6{
     margin-top: 35px;
     color: var(--grey);
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Montserrat';
   }
   .about-us{
     text-decoration: none;
     margin-top: 15px;
     font-family: 'Montserrat';
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--white);
   }
   .sites{
     width: 200px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
   .about-loc{
-    font-size: 14px;
+    font-size: 16px;
   }
   .mt{
     margin-top: 0;
@@ -798,10 +798,6 @@ body{
   .site-head__img-oval img {
     display: none;
   }
-
-  .none2{
-    display: none;
-  }
   .inp {
     display: none;
   }
@@ -827,13 +823,12 @@ body{
   }
   .menu-bar{
     display: flex;
-    width: 372px;
+    justify-content: space-between;
+    width: 605px;
     color: #fff;
-    display: flex;
-    flex-direction: column;
     padding-top: 60px;
-    margin-left: 38px;
-    padding-left: 25px;
+    margin-left: 165px;
+    padding-left: 70px;
     background-color: var(--black-dark);
     overflow: auto;
   }
@@ -841,34 +836,37 @@ body{
     display: flex;
     flex-direction: column;
   }
+  .none3{
+    display: none;
+  }
   .menu{
-    font-size: 22px;
+    font-size: 34px;
     font-family: 'Montserrat';
     text-decoration: none;
     color: var(--white);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   h6{
     margin-top: 35px;
     color: var(--grey);
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Montserrat';
   }
   .about-us{
     text-decoration: none;
     margin-top: 15px;
     font-family: 'Montserrat';
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--white);
   }
   .sites{
     width: 200px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
   .about-loc{
-    font-size: 14px;
+    font-size: 16px;
   }
   .mt{
     margin-top: 0;
@@ -971,33 +969,35 @@ body{
     color: var(--light-grey);
     padding-bottom: 10px;
   }
-  .none2{
-    display: none;
+  .foot{
+    width: 768px;
+    background-color: var(--red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .end{
-    width: 768px;
+    margin: 0 auto;
     height: 400px;
-    background-color: var(--red);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    text-align: center;
+    margin-left: 24px;
   }
   .end h2{
     color: var(--white);
     font-family: STIX Two Text;
     font-size: 28px;
     font-weight: 400;
-    width: 750px;
+    width: 450px;
   }
   .text2{
-    width: 720px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: var(--white);
     font-family: 'Montserrat';
+    width: 450px;
   }
   .mb{
     margin-bottom: 60px;
@@ -1023,7 +1023,7 @@ body{
     background:var(--black-dark);
     border-radius: 50%;
     border: 1px solid #da4533;
-    margin-top: -145px;
+    margin-top: -137px;
     margin-bottom: 26px;
     font-size: 16px;
     color: var(--white);
