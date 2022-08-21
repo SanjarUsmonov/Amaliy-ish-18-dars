@@ -804,47 +804,37 @@ body{
   label {
     z-index: 100;
   }
-  .div-nav {
-    right: 0;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color:var(--grey);
-    top: 0;
-    right: -100%;
-    transition: 0.5s;
-  }
-  #burger:checked ~ .div-nav {
-    right: 0;
-  }
   .div-nav{
     display: flex;
     justify-content: space-between;
   }
   .menu-bar{
-    display: flex;
-    justify-content: space-between;
     width: 605px;
+    height: auto;
     color: #fff;
+    display: flex;
+    flex-direction: column;
     padding-top: 60px;
-    margin-left: 165px;
+    margin-left: 163px;
     padding-left: 70px;
     background-color: var(--black-dark);
     overflow: auto;
   }
   .services{
+    margin-top: 34px;
     display: flex;
     flex-direction: column;
+    width: 275px;
   }
-  .none3{
-    display: none;
+  .malumot{
+    width: 400px;
   }
   .menu{
     font-size: 34px;
     font-family: 'Montserrat';
     text-decoration: none;
     color: var(--white);
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
   h6{
     margin-top: 35px;
