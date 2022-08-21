@@ -516,7 +516,7 @@
   }
   .end-main {
     width: 360px;
-    height: 790px;
+    height: 850px;
     padding: 20px;
     margin: 0 auto;
     background-color: var(--black-dark);
@@ -1316,7 +1316,7 @@
   }
   .end-main {
     width: 480px;
-    height: 750px;
+    height: 875px;
     padding: 20px;
     margin: 0 auto;
     background-color: var(--black-dark);
@@ -2137,7 +2137,7 @@
   }
   .end-main {
     width: 768px;
-    height: 550px;
+    height: 650px;
     padding: 20px;
     margin: 0 auto;
     background-color: var(--black-dark);
@@ -2198,7 +2198,8 @@
     width: 300px;
     color: var(--grey);
     font-size: 14px;
-    padding: 15px 0;
+    padding: 10px 0;
+    margin-top: -2px;
   }
   .end__hode1 {
     margin-top: 10px;
@@ -3019,7 +3020,7 @@
   }
   .end-main {
     width: 1000px;
-    height: 680px;
+    height: 750px;
     padding: 20px;
     margin: 0 auto;
     background-color: var(--black-dark);
