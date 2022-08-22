@@ -2134,6 +2134,7 @@
   }
   .footer__btn {
     background-color: var(--black-dark);
+    margin-top: -90px;
   }
   .end-main {
     width: 768px;
