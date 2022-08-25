@@ -1576,9 +1576,13 @@ body{
 
 
 @media (min-width: 1001px) and (max-width:1600px) {
-  
+  .container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+  }
   .site-head__start {
-    max-width: 1600px;
+    max-width: 1300px;
     width: 100%;
     margin-top: 100px;
     background-color: #000;
@@ -1597,7 +1601,7 @@ body{
     background: var(--black-dark);
   }
   .site {
-    width: 1275px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -1716,18 +1720,18 @@ body{
     flex-direction: column;
   }
   .hero{
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
   }
   .cards{
-    width: 1300px;
+    width: 1250px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .hero__content{
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
   }
   .hero h1{
@@ -1836,7 +1840,7 @@ body{
     padding-bottom: 20px;
   }
   .foot{
-    width: 100%;
+    width: 1300px;
     margin: 0 auto;
     background-color: var(--red);
     display: flex;
@@ -1896,7 +1900,7 @@ body{
     line-height: 160%;
   }
   .end-main {
-    width: 100%;
+    width: 1300px;
     height: 675px;
     padding: 20px;
     margin: 0 auto;
